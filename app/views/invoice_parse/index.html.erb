@@ -1,0 +1,8 @@
+<h1>Parse Invoice Numbers</h1>
+<%= form_tag invoice_parse_index_url, multipart: true do %>
+  <label for="file">Click to select file</label> 
+  <br><br>
+  <%= file_field_tag "file" %>
+  <br><br>
+  <%= submit_tag "Upload"%>
+<% end %>
